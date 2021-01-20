@@ -5,17 +5,196 @@
 
 .bl-list {
     background: white;
+    /* float: left; */
     margin-bottom: 10px;
+  
 }
-
 .bl-bought {
     background: white;
+    height:175px;
+   
+}
+.placeholder{
+  padding: 15px;
+  font-size: 0;
+  height: 50px;
+}
+.placeholder input{  
+  width: 81.5%;
+  height: 90%;
+  padding: 10px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  border-color: #F2F2F2;
+  border-style: solid;
+  border-radius: 2px;
+
+}
+.dodaty{
+  background-color: #2690BD;
+  color: #fff;
+  border:none;
+  cursor: pointer;
+  width: 15%; 
+  height: 95%;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
 }
 
 /*Кнопки*/
 .bl-label {
-    background: #cdcbcb;
+ display: inline-block;
+  width: 30px;
+    background: #E9E9E9;
+    border-radius: 10%;
+    font-family: cursive;
+  font-size:13px;
+ font-weight:500;
+    text-align: center;
+
 }
 .bl-plus {
-    background: #04a613;
+  width:3em;
+  height:3em;
+  background: #04a613;
+  border-radius:50%;
+  color:white;
+  font-weight:600;
+  border-color:#04a613;
 }
+.bl-minus {
+  width:3em;
+  height:3em;
+  background: red;
+  border-radius:50%;
+  color:white;
+  font-weight:600;
+  border-color:red;
+}
+
+.bl-buttons{
+  margin-right: -6.5%;
+}
+.kuplene{
+  width:50%;
+  height:43px;
+  background:#f0f0f0;
+  border-radius:5px;
+  border-color:#F2F2F2;
+  font-weight:600;
+  box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
+}
+.xButton{
+  width:40px;
+  height:40px;
+  background:red;
+  border-radius:10%;
+  font-weight:600;
+  border-color:red;
+  color:white;
+}
+
+.bl-row{
+  height:25%;
+  position: relative;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: justify;
+  /* Свои стили */
+}
+  .bl-row:after{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    vertical-align: top;
+    content: '';
+    
+  }
+  .bl-row>div{
+    position: relative;
+    display: inline-block;
+    width: 25%;
+    height: 25%;
+    box-sizing: border-box;
+    vertical-align: top;
+  
+  }
+  
+  .bl-product{
+  padding-left:15px;
+  font-size:15pt;
+}
+  
+  .bl-title{
+    padding-left:15px;
+    padding-top:15px;
+    font-weight:700;
+    height:35px;
+    font-size:18pt;
+    
+  }
+    
+  .b2-title{
+    padding-left:15px;
+    font-weight:700;
+    height:35px;
+    font-size:18pt;
+  }
+ .bl-tomato{
+        display: inline-block;
+        width: 60px;
+        height:25px;
+        background: #E9E9E9;
+        border-radius: 3px;
+        font-size: 10pt;
+        text-align: center;
+        padding-right:25px;
+        padding-left:5px;
+         padding-top:10px;
+ }
+ 
+  .bl-cookie{
+        display: inline-block;
+        width: 60px;
+        height:25px;
+        background: #E9E9E9;
+        border-radius: 3px;
+        font-size: 10pt;
+        text-align: center;
+        padding-right:25px;
+        padding-left:5px;
+         padding-top:10px;
+ }
+ 
+  .bl-cheese{
+        display: inline-block;
+        width: 60px;
+        height:25px;
+        background: #E9E9E9;
+        border-radius: 3px;
+        font-size: 10pt;
+        text-align: center;
+        padding-right:25px;
+        padding-left:5px;
+        padding-top:10px;
+ }
+      .counter-bought {
+        background-color: #ffaa52;
+        margin: 2px;
+        padding: 2px 6px 2px 6px;
+        color: #fff;
+        border-radius: 100%;
+      }
+
+      .products{
+        font-size:10pt;
+        height:35px;
+        padding-left:15px;
+
+}
+
+
